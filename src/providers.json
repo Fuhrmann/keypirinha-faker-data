@@ -1,0 +1,506 @@
+[
+    {
+        "name": "Address: Military APO",
+        "function": "military_apo",
+        "description": "Generate a military APO address"
+    },
+    {
+        "name": "Address: Street address",
+        "function": "street_address",
+        "description": "Generate a street address"
+    },
+    {
+        "name": "Address: Common address",
+        "function": "address",
+        "description": "Generate a common adress"
+    },
+    {
+        "name": "Address: Postcode",
+        "function": "postcode",
+        "description": "Generate a postcode"
+    },
+    {
+        "name": "Address: Street suffix",
+        "function": "street_suffix",
+        "description": "Generate a street suffix"
+    },
+    {
+        "name": "Address: City suffix",
+        "function": "city_suffix",
+        "description": "Generate a city suffix"
+    },
+    {
+        "name": "Address: Military Ship",
+        "function": "military_ship",
+        "description": "Generate a military ship"
+    },
+    {
+        "name": "Address: State",
+        "function": "state",
+        "description": "Generate a state name"
+    },
+    {
+        "name": "Address: City",
+        "function": "city",
+        "description": "Generate a city name"
+    },
+    {
+        "name": "Address: Building number",
+        "function": "building_number",
+        "description": "Generate a building number"
+    },
+    {
+        "name": "Address: Street name",
+        "function": "street_name",
+        "description": "Generate a street name"
+    },
+    {
+        "name": "Address: Secondary address",
+        "function": "secondary_address",
+        "description": "Generate a secondary address"
+    },
+    {
+        "name": "Address: City prefix",
+        "function": "city_prefix",
+        "description": "Generate a city prefix"
+    },
+    {
+        "name": "Address: State abbreviation",
+        "function": "state_abbr",
+        "description": "Generate a state abbreviation"
+    },
+    {
+        "name": "Address: Longitude",
+        "function": "longitude",
+        "description": "Generate a longitude"
+    },
+    {
+        "name": "Address: Latitude",
+        "function": "latitude",
+        "description": "Generate a latitude"
+    },
+    {
+        "name": "Address: Zipcode",
+        "function": "zipcode",
+        "description": "Generate a zipcode"
+    },
+    {
+        "name": "Address: Country",
+        "function": "country",
+        "description": "Generate a country name"
+    },
+    {
+        "name": "Address: Country code",
+        "function": "country_code",
+        "description": "Generate a country code"
+    },
+    {
+        "name": "Address: Postal code",
+        "function": "postalcode",
+        "description": "Generate a postal code"
+    },
+    {
+        "name": "Automotive: License plate",
+        "function": "license_plate",
+        "description": "Generate a license plate"
+    },
+    {
+        "name": "Bank: BBAN",
+        "function": "bban",
+        "description": "Generate basic bank account number"
+    },
+    {
+        "name": "Bank: IBAN",
+        "function": "iban",
+        "description": "Generate a international bank account number"
+    },
+    {
+        "name": "Bank: Country",
+        "function": "bank_country",
+        "description": "Generate a bank country"
+    },
+    {
+        "name": "Barcode: EAN",
+        "function": "ean",
+        "description": "Generate a barcode using european article number as standart",
+        "args": ["length"]
+    },
+    {
+        "name": "Barcode: EAN8",
+        "function": "ean8",
+        "description": "Generate a barcode using european article number 8 as standart"
+    },
+    {
+        "name": "Barcode: EAN13",
+        "function": "ean13",
+        "description": "Generate a barcode using european article number 13 as standart"
+    },
+    {
+        "name": "Color: Color name",
+        "function": "color_name",
+        "description": "Generate a color name"
+    },
+    {
+        "name": "Color: RGB",
+        "function": "rgb_color",
+        "description": "Generate a RGB color"
+    },
+    {
+        "name": "Color: RGB CSS",
+        "function": "rgb_css_color",
+        "description": "Generate a RGB color as CSS standart"
+    },
+    {
+        "name": "Color: HEX",
+        "function": "hex_color",
+        "description": "Generate a HEX color"
+    },
+    {
+        "name": "Company: Suffix",
+        "function": "company_suffix",
+        "description": "Generate a company suffix"
+    },
+    {
+        "name": "Company: Name",
+        "function": "company",
+        "description": "Generate a company name"
+    },
+    {
+        "name": "Company: Catch phrase",
+        "function": "catch_phrase",
+        "description": "Generate a company catch phrase"
+    },
+    {
+        "name": "Company: Business",
+        "function": "bs",
+        "description": "Generate a company business"
+    },
+    {
+        "name": "Credit card: Number",
+        "function": "credit_card_number",
+        "description": "Generate a credit card number",
+        "args": ["card_type"]
+    },
+    {
+        "name": "Credit card: Provider",
+        "function": "credit_card_provider",
+        "description": "Generate a credit card provider name",
+        "args": ["card_type"]
+    },
+    {
+        "name": "Credit card: Security code",
+        "function": "credit_card_security_code",
+        "description": "Generate a credit card security code",
+        "args": ["card_type"]
+    },
+    {
+        "name": "Credit card: Expire date",
+        "function": "credit_card_expire",
+        "description": "Generate a credit card expire date",
+        "args": ["start", "end", "date_format"]
+    },
+    {
+        "name": "Currency: Cryptocurrency code",
+        "function": "cryptocurrency_code",
+        "description": "Generate a cryptocurrency code"
+    },
+    {
+        "name": "Currency: Code",
+        "function": "currency_code",
+        "description": "Generate a currency code"
+    },
+    {
+        "name": "File: Path",
+        "function": "file_path",
+        "description": "Generate a file path",
+        "args": ["depth", "category", "extension"]
+    },
+    {
+        "name": "File: MIME type",
+        "function": "mime_type",
+        "description": "Generate a file mime type",
+        "args": ["category"]
+    },
+    {
+        "name": "File: Extension",
+        "function": "file_extension",
+        "description": "Generate a file extension",
+        "args": ["category"]
+    },
+    {
+        "name": "File: Name",
+        "function": "file_name",
+        "description": "Generate a file name",
+        "args": ["category", "extension"]
+    },
+    {
+        "name": "Internet: Username",
+        "function": "user_name",
+        "description": "Generate an username"
+    },
+    {
+        "name": "Internet: Email",
+        "function": "email",
+        "description": "Generate an email"
+    },
+    {
+        "name": "Internet: IPV6",
+        "function": "ipv6",
+        "description": "Generate an IPV6"
+    },
+    {
+        "name": "Internet: URL",
+        "function": "url",
+        "description": "Generate an url"
+    },
+    {
+        "name": "Internet: URI path",
+        "function": "uri_path",
+        "description": "Generate an URI path"
+    },
+    {
+        "name": "Internet: Email domain",
+        "function": "free_email_domain",
+        "description": "Generate an email domain"
+    },
+    {
+        "name": "Internet: IPV4 public",
+        "function": "ipv4_public",
+        "description": "Generate a public IPV4"
+    },
+    {
+        "name": "Internet: URI extension",
+        "function": "uri_extension",
+        "description": "Generate an URI extension"
+    },
+    {
+        "name": "Internet: Image URL",
+        "function": "image_url",
+        "description": "Generate an image URL"
+    },
+    {
+        "name": "Internet: Domain",
+        "function": "domain_name",
+        "description": "Generate a domain name"
+    },
+    {
+        "name": "Internet: IPV4 private",
+        "function": "ipv4_private",
+        "description": "Generate an private IPV4"
+    },
+    {
+        "name": "Internet: MAC address",
+        "function": "mac_address",
+        "description": "Generate a MAC address"
+    },
+    {
+        "name": "Internet: Slug",
+        "function": "slug",
+        "description": "Generate a slug"
+    },
+    {
+        "name": "Internet: URI",
+        "function": "uri",
+        "description": "Generate an URI"
+    },
+    {
+        "name": "Internet: Company email",
+        "function": "company_email",
+        "description": "Generate a company email"
+    },
+    {
+        "name": "Internet: URI page",
+        "function": "uri_page",
+        "description": "Generate an URI page"
+    },
+    {
+        "name": "User Agent: Windows platform token",
+        "function": "windows_platform_token",
+        "description": "Generate a windows platform token string"
+    },
+    {
+        "name": "User Agent: Linux processor",
+        "function": "linux_processor",
+        "description": "Generate a linux processor string"
+    },
+    {
+        "name": "User Agent: Firefox",
+        "function": "firefox",
+        "description": "Generate a user agent string from firefox"
+    },
+    {
+        "name": "User Agent: Internet Explorer",
+        "function": "internet_explorer",
+        "description": "Generate a user agent string from internet explorer"
+    },
+    {
+        "name": "User Agent: Linux platform token",
+        "function": "linux_platform_token",
+        "description": "Generate a linux platform token string"
+    },
+    {
+        "name": "User Agent: Mac platform token",
+        "function": "mac_platform_token",
+        "description": "Generate a mac platform token string"
+    },
+    {
+        "name": "User Agent: Chrome",
+        "function": "chrome",
+        "description": "Generate a user agent string from chrome"
+    },
+    {
+        "name": "User Agent: Opera",
+        "function": "opera",
+        "description": "Generate a user agent string from opera"
+    },
+    {
+        "name": "User Agent: Safari",
+        "function": "safari",
+        "description": "Generate a user agent string from safari"
+    },
+    {
+        "name": "User Agent: Random",
+        "function": "user_agent",
+        "description": "Generate a random user agent string"
+    },
+    {
+        "name": "User Agent: Mac processor",
+        "function": "mac_processor",
+        "description": "Generate a mac processor string"
+    },
+    {
+        "name": "ISBN: ISBN10",
+        "function": "isbn10",
+        "description": "Generate a ISBN10 string"
+    },
+    {
+        "name": "ISBN: ISBN13",
+        "function": "isbn13",
+        "description": "Generate a ISBN13 string"
+    },
+    {
+        "name": "Job: Name",
+        "function": "job",
+        "description": "Generate a job name"
+    },
+    {
+        "name": "Misc: Boolean",
+        "function": "boolean",
+        "description": "Generate a boolean"
+    },
+    {
+        "name": "Misc: MD5",
+        "function": "md5",
+        "description": "Generate a md5 string"
+    },
+    {
+        "name": "Misc: Locale",
+        "function": "locale",
+        "description": "Generate a random locate"
+    },
+    {
+        "name": "Misc: UUID4",
+        "function": "uuid4",
+        "description": "Generate a UUID4 string"
+    },
+    {
+        "name": "Person: SSN",
+        "function": "ssn",
+        "description": "Generate a social security number"
+    },
+    {
+        "name": "Person: Female first name",
+        "function": "first_name_female",
+        "description": "Generate a female first name"
+    },
+    {
+        "name": "Person: Last name",
+        "function": "last_name",
+        "description": "Generate a person last name"
+    },
+    {
+        "name": "Person: Female prefix",
+        "function": "prefix_female",
+        "description": "Generate a female prefix"
+    },
+    {
+        "name": "Person: First name",
+        "function": "first_name",
+        "description": "Generate a person first name"
+    },
+    {
+        "name": "Person: Female name",
+        "function": "name_female",
+        "description": "Generate a female person name"
+    },
+    {
+        "name": "Person: Prefix",
+        "function": "prefix",
+        "description": "Generate a person prefix"
+    },
+    {
+        "name": "Person: Female suffix",
+        "function": "suffix_female",
+        "description": "Generate a female suffix"
+    },
+    {
+        "name": "Person: Male suffix",
+        "function": "suffix_male",
+        "description": "Generate a male suffix"
+    },
+    {
+        "name": "Person: Female last name",
+        "function": "last_name_female",
+        "description": "Generate a female last name"
+    },
+    {
+        "name": "Person: Name",
+        "function": "name",
+        "description": "Generate a person name"
+    },
+    {
+        "name": "Person: Male last name",
+        "function": "last_name_male",
+        "description": "Generate a male last name"
+    },
+    {
+        "name": "Person: Male first name",
+        "function": "first_name_male",
+        "description": "Generate a male first name"
+    },
+    {
+        "name": "Person: Male prefix",
+        "function": "prefix_male",
+        "description": "Generate a male prefix"
+    },
+    {
+        "name": "Person: Suffix",
+        "function": "suffix",
+        "description": "Generate a person suffix"
+    },
+    {
+        "name": "Person: Male name",
+        "function": "name_male",
+        "description": "Generate a male name"
+    },
+    {
+        "name": "Phone: Number",
+        "function": "phone_number",
+        "description": "Generate a phone number"
+    },
+    {
+        "name": "Phone: MSISDN",
+        "function": "msisdn",
+        "description": "Generate a MSISDN subscription"
+    },
+    {
+        "name": "Profile: Simple",
+        "function": "simple_profile",
+        "description": "Generate a simple person profile"
+    },
+    {
+        "name": "Profile: Complete",
+        "function": "profile",
+        "description": "Generate a person profile"
+    }
+]
