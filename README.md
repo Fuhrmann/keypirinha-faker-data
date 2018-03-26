@@ -7,7 +7,7 @@ This plugin allows you to generate different types of fake data.
 ![Demo](usage.gif)
 
 ## Download
-https://github.com/USERNAME/keypirinha-faker-data/releases
+https://github.com/Fuhrmann/keypirinha-faker-data/releases
 
 
 ## Install
