@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="src/fakerdata.ico" />
+</p>
+
 # Keypirinha Plugin: FakerData
 This is FakerData, a plugin for the
 [Keypirinha](http://keypirinha.com) launcher.
