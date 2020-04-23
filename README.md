@@ -46,6 +46,9 @@ language = en_US
 
 
 ## Change Log
+### v1.0.1
+* Add the required library `six`
+
 ### v1.0
 * Released
 
